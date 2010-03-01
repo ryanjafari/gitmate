@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E17634A113C7F3C00F1C618 /* gitlogo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0E176349113C7F3C00F1C618 /* gitlogo.tiff */; };
 		0EE8F50410A3E17600DD8EBA /* bkg.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8F50110A3E17600DD8EBA /* bkg.tiff */; };
 		0EE8F50510A3E17600DD8EBA /* gear.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8F50210A3E17600DD8EBA /* gear.tiff */; };
 		0EE8F50610A3E17600DD8EBA /* plus.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8F50310A3E17600DD8EBA /* plus.tiff */; };
@@ -18,46 +19,16 @@
 		0EE8F6B810A3EF5600DD8EBA /* infodisabled.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8F6B510A3EF5600DD8EBA /* infodisabled.tiff */; };
 		0EE8F6B910A3EF5600DD8EBA /* infopressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8F6B610A3EF5600DD8EBA /* infopressed.tiff */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
-		911112540E5C8AF900BF76B4 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911112530E5C8AF900BF76B4 /* Sparkle.framework */; };
-		9111129C0E5C8D9000BF76B4 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 911112530E5C8AF900BF76B4 /* Sparkle.framework */; };
-		91280ADA0E4606B700B7ED82 /* libsvn_wc-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AC70E4606B700B7ED82 /* libsvn_wc-1.0.0.0.dylib */; };
-		91280ADB0E4606B700B7ED82 /* libsvn_subr-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AC80E4606B700B7ED82 /* libsvn_subr-1.0.0.0.dylib */; };
-		91280ADC0E4606B700B7ED82 /* libsvn_repos-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AC90E4606B700B7ED82 /* libsvn_repos-1.0.0.0.dylib */; };
-		91280ADD0E4606B700B7ED82 /* libsvn_ra_svn-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280ACA0E4606B700B7ED82 /* libsvn_ra_svn-1.0.0.0.dylib */; };
-		91280ADE0E4606B700B7ED82 /* libsvn_ra_serf-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280ACB0E4606B700B7ED82 /* libsvn_ra_serf-1.0.0.0.dylib */; };
-		91280ADF0E4606B700B7ED82 /* libsvn_ra_neon-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280ACC0E4606B700B7ED82 /* libsvn_ra_neon-1.0.0.0.dylib */; };
-		91280AE00E4606B700B7ED82 /* libsvn_ra_local-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280ACD0E4606B700B7ED82 /* libsvn_ra_local-1.0.0.0.dylib */; };
-		91280AE10E4606B700B7ED82 /* libsvn_ra-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280ACE0E4606B700B7ED82 /* libsvn_ra-1.0.0.0.dylib */; };
-		91280AE20E4606B700B7ED82 /* libsvn_fs_util-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280ACF0E4606B700B7ED82 /* libsvn_fs_util-1.0.0.0.dylib */; };
-		91280AE30E4606B700B7ED82 /* libsvn_fs_fs-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD00E4606B700B7ED82 /* libsvn_fs_fs-1.0.0.0.dylib */; };
-		91280AE40E4606B700B7ED82 /* libsvn_fs-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD10E4606B700B7ED82 /* libsvn_fs-1.0.0.0.dylib */; };
-		91280AE50E4606B700B7ED82 /* libsvn_diff-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD20E4606B700B7ED82 /* libsvn_diff-1.0.0.0.dylib */; };
-		91280AE60E4606B700B7ED82 /* libsvn_delta-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD30E4606B700B7ED82 /* libsvn_delta-1.0.0.0.dylib */; };
-		91280AE70E4606B700B7ED82 /* libsvn_client-1.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD40E4606B700B7ED82 /* libsvn_client-1.0.0.0.dylib */; };
-		91280AE80E4606B700B7ED82 /* libserf-0.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD50E4606B700B7ED82 /* libserf-0.0.0.0.dylib */; };
-		91280AE90E4606B700B7ED82 /* libneon.27.1.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD60E4606B700B7ED82 /* libneon.27.1.2.dylib */; };
-		91280AEA0E4606B700B7ED82 /* libexpat.0.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD70E4606B700B7ED82 /* libexpat.0.1.0.dylib */; };
-		91280AEB0E4606B700B7ED82 /* libaprutil-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD80E4606B700B7ED82 /* libaprutil-1.0.dylib */; };
-		91280AEC0E4606B700B7ED82 /* libapr-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91280AD90E4606B700B7ED82 /* libapr-1.0.dylib */; };
 		913A313F0CFFC75600436C23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A313E0CFFC75600436C23 /* Security.framework */; };
 		915AD42B0ED9E2070017679A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 915AD3DA0ED9E2070017679A /* InfoPlist.strings */; };
 		915AD4600ED9E2070017679A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915AD4180ED9E2070017679A /* Preferences.xib */; };
-		915AD4610ED9E2070017679A /* projectplus.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 915AD4190ED9E2070017679A /* projectplus.tiff */; };
 		915AD4F30ED9E6AD0017679A /* OpenWith.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4D60ED9E6AD0017679A /* OpenWith.mm */; };
 		915AD4F40ED9E6AD0017679A /* ProjectPlus.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4D80ED9E6AD0017679A /* ProjectPlus.mm */; };
 		915AD4F50ED9E6AD0017679A /* ProjectTree.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4DA0ED9E6AD0017679A /* ProjectTree.mm */; };
-		915AD4F60ED9E6AD0017679A /* BzrIcons.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4DD0ED9E6AD0017679A /* BzrIcons.mm */; };
 		915AD4F70ED9E6AD0017679A /* GitIcons.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4DF0ED9E6AD0017679A /* GitIcons.mm */; };
-		915AD4F80ED9E6AD0017679A /* HgIcons.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4E10ED9E6AD0017679A /* HgIcons.mm */; };
 		915AD4F90ED9E6AD0017679A /* SCMIcons.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4E30ED9E6AD0017679A /* SCMIcons.mm */; };
-		915AD4FA0ED9E6AD0017679A /* SvkIcons.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4E50ED9E6AD0017679A /* SvkIcons.mm */; };
-		915AD4FB0ED9E6AD0017679A /* SVNIcons.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4E70ED9E6AD0017679A /* SVNIcons.mm */; };
-		915AD4FC0ED9E6AD0017679A /* CWTMSplitView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4EA0ED9E6AD0017679A /* CWTMSplitView.mm */; };
-		915AD4FD0ED9E6AD0017679A /* KFSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4EC0ED9E6AD0017679A /* KFSplitView.m */; };
-		915AD4FE0ED9E6AD0017679A /* SideBarSwitching.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4ED0ED9E6AD0017679A /* SideBarSwitching.mm */; };
 		915AD4FF0ED9E6AD0017679A /* Sorting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4EE0ED9E6AD0017679A /* Sorting.mm */; };
 		915AD5000ED9E6AD0017679A /* TMLabels.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4F00ED9E6AD0017679A /* TMLabels.mm */; };
-		915AD5010ED9E6AD0017679A /* Tooltips.mm in Sources */ = {isa = PBXBuildFile; fileRef = 915AD4F10ED9E6AD0017679A /* Tooltips.mm */; };
 		915AD5100ED9E7170017679A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 915AD50B0ED9E7170017679A /* JRSwizzle.m */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +39,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9111129C0E5C8D9000BF76B4 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +47,7 @@
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		0E176349113C7F3C00F1C618 /* gitlogo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gitlogo.tiff; sourceTree = "<group>"; };
 		0EE8F50110A3E17600DD8EBA /* bkg.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = bkg.tiff; sourceTree = "<group>"; };
 		0EE8F50210A3E17600DD8EBA /* gear.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = gear.tiff; sourceTree = "<group>"; };
 		0EE8F50310A3E17600DD8EBA /* plus.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = plus.tiff; sourceTree = "<group>"; };
@@ -88,50 +59,19 @@
 		0EE8F6B510A3EF5600DD8EBA /* infodisabled.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = infodisabled.tiff; sourceTree = "<group>"; };
 		0EE8F6B610A3EF5600DD8EBA /* infopressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = infopressed.tiff; sourceTree = "<group>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		8D5B49B6048680CD000E48DA /* ProjectPlus.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectPlus.tmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		911112530E5C8AF900BF76B4 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
-		91280AC70E4606B700B7ED82 /* libsvn_wc-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_wc-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AC80E4606B700B7ED82 /* libsvn_subr-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_subr-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AC90E4606B700B7ED82 /* libsvn_repos-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_repos-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280ACA0E4606B700B7ED82 /* libsvn_ra_svn-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_ra_svn-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280ACB0E4606B700B7ED82 /* libsvn_ra_serf-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_ra_serf-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280ACC0E4606B700B7ED82 /* libsvn_ra_neon-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_ra_neon-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280ACD0E4606B700B7ED82 /* libsvn_ra_local-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_ra_local-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280ACE0E4606B700B7ED82 /* libsvn_ra-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_ra-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280ACF0E4606B700B7ED82 /* libsvn_fs_util-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_fs_util-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AD00E4606B700B7ED82 /* libsvn_fs_fs-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_fs_fs-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AD10E4606B700B7ED82 /* libsvn_fs-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_fs-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AD20E4606B700B7ED82 /* libsvn_diff-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_diff-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AD30E4606B700B7ED82 /* libsvn_delta-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_delta-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AD40E4606B700B7ED82 /* libsvn_client-1.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsvn_client-1.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AD50E4606B700B7ED82 /* libserf-0.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libserf-0.0.0.0.dylib"; sourceTree = "<group>"; };
-		91280AD60E4606B700B7ED82 /* libneon.27.1.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libneon.27.1.2.dylib; sourceTree = "<group>"; };
-		91280AD70E4606B700B7ED82 /* libexpat.0.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libexpat.0.1.0.dylib; sourceTree = "<group>"; };
-		91280AD80E4606B700B7ED82 /* libaprutil-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libaprutil-1.0.dylib"; sourceTree = "<group>"; };
-		91280AD90E4606B700B7ED82 /* libapr-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libapr-1.0.dylib"; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* GITMate.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITMate.tmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		913A313E0CFFC75600436C23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		915AD3DB0ED9E2070017679A /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		915AD4180ED9E2070017679A /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
-		915AD4190ED9E2070017679A /* projectplus.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = projectplus.tiff; sourceTree = "<group>"; };
 		915AD4D60ED9E6AD0017679A /* OpenWith.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenWith.mm; sourceTree = "<group>"; };
 		915AD4D70ED9E6AD0017679A /* ProjectPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectPlus.h; sourceTree = "<group>"; };
 		915AD4D80ED9E6AD0017679A /* ProjectPlus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProjectPlus.mm; sourceTree = "<group>"; };
 		915AD4DA0ED9E6AD0017679A /* ProjectTree.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProjectTree.mm; sourceTree = "<group>"; };
-		915AD4DD0ED9E6AD0017679A /* BzrIcons.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BzrIcons.mm; sourceTree = "<group>"; };
 		915AD4DF0ED9E6AD0017679A /* GitIcons.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GitIcons.mm; sourceTree = "<group>"; };
-		915AD4E10ED9E6AD0017679A /* HgIcons.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HgIcons.mm; sourceTree = "<group>"; };
 		915AD4E20ED9E6AD0017679A /* SCMIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMIcons.h; sourceTree = "<group>"; };
 		915AD4E30ED9E6AD0017679A /* SCMIcons.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCMIcons.mm; sourceTree = "<group>"; };
-		915AD4E50ED9E6AD0017679A /* SvkIcons.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SvkIcons.mm; sourceTree = "<group>"; };
-		915AD4E70ED9E6AD0017679A /* SVNIcons.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNIcons.mm; sourceTree = "<group>"; };
-		915AD4E90ED9E6AD0017679A /* CWTMSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTMSplitView.h; sourceTree = "<group>"; };
-		915AD4EA0ED9E6AD0017679A /* CWTMSplitView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWTMSplitView.mm; sourceTree = "<group>"; };
-		915AD4EB0ED9E6AD0017679A /* KFSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFSplitView.h; sourceTree = "<group>"; };
-		915AD4EC0ED9E6AD0017679A /* KFSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFSplitView.m; sourceTree = "<group>"; };
-		915AD4ED0ED9E6AD0017679A /* SideBarSwitching.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SideBarSwitching.mm; sourceTree = "<group>"; };
 		915AD4EE0ED9E6AD0017679A /* Sorting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Sorting.mm; sourceTree = "<group>"; };
 		915AD4F00ED9E6AD0017679A /* TMLabels.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TMLabels.mm; sourceTree = "<group>"; };
-		915AD4F10ED9E6AD0017679A /* Tooltips.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tooltips.mm; sourceTree = "<group>"; };
 		915AD50A0ED9E7170017679A /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		915AD50B0ED9E7170017679A /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		915AD50E0ED9E7170017679A /* ProjectPlus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectPlus_Prefix.pch; sourceTree = "<group>"; };
@@ -146,26 +86,6 @@
 			files = (
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				913A313F0CFFC75600436C23 /* Security.framework in Frameworks */,
-				91280ADA0E4606B700B7ED82 /* libsvn_wc-1.0.0.0.dylib in Frameworks */,
-				91280ADB0E4606B700B7ED82 /* libsvn_subr-1.0.0.0.dylib in Frameworks */,
-				91280ADC0E4606B700B7ED82 /* libsvn_repos-1.0.0.0.dylib in Frameworks */,
-				91280ADD0E4606B700B7ED82 /* libsvn_ra_svn-1.0.0.0.dylib in Frameworks */,
-				91280ADE0E4606B700B7ED82 /* libsvn_ra_serf-1.0.0.0.dylib in Frameworks */,
-				91280ADF0E4606B700B7ED82 /* libsvn_ra_neon-1.0.0.0.dylib in Frameworks */,
-				91280AE00E4606B700B7ED82 /* libsvn_ra_local-1.0.0.0.dylib in Frameworks */,
-				91280AE10E4606B700B7ED82 /* libsvn_ra-1.0.0.0.dylib in Frameworks */,
-				91280AE20E4606B700B7ED82 /* libsvn_fs_util-1.0.0.0.dylib in Frameworks */,
-				91280AE30E4606B700B7ED82 /* libsvn_fs_fs-1.0.0.0.dylib in Frameworks */,
-				91280AE40E4606B700B7ED82 /* libsvn_fs-1.0.0.0.dylib in Frameworks */,
-				91280AE50E4606B700B7ED82 /* libsvn_diff-1.0.0.0.dylib in Frameworks */,
-				91280AE60E4606B700B7ED82 /* libsvn_delta-1.0.0.0.dylib in Frameworks */,
-				91280AE70E4606B700B7ED82 /* libsvn_client-1.0.0.0.dylib in Frameworks */,
-				91280AE80E4606B700B7ED82 /* libserf-0.0.0.0.dylib in Frameworks */,
-				91280AE90E4606B700B7ED82 /* libneon.27.1.2.dylib in Frameworks */,
-				91280AEA0E4606B700B7ED82 /* libexpat.0.1.0.dylib in Frameworks */,
-				91280AEB0E4606B700B7ED82 /* libaprutil-1.0.dylib in Frameworks */,
-				91280AEC0E4606B700B7ED82 /* libapr-1.0.dylib in Frameworks */,
-				911112540E5C8AF900BF76B4 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +124,6 @@
 		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				911112530E5C8AF900BF76B4 /* Sparkle.framework */,
 				913A313E0CFFC75600436C23 /* Security.framework */,
 				089C167FFE841241C02AAC07 /* AppKit.framework */,
 				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
@@ -216,7 +135,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* ProjectPlus.tmplugin */,
+				8D5B49B6048680CD000E48DA /* GITMate.tmplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,6 +145,7 @@
 			children = (
 				0EE8F6B410A3EF5600DD8EBA /* info.tiff */,
 				0EE8F6B510A3EF5600DD8EBA /* infodisabled.tiff */,
+				0E176349113C7F3C00F1C618 /* gitlogo.tiff */,
 				0EE8F6B610A3EF5600DD8EBA /* infopressed.tiff */,
 				0EE8F62C10A3ECE100DD8EBA /* plusdirpressed.tiff */,
 				0EE8F61910A3EB3300DD8EBA /* gearpressed.tiff */,
@@ -236,7 +156,6 @@
 				0EE8F50310A3E17600DD8EBA /* plus.tiff */,
 				915AD3DA0ED9E2070017679A /* InfoPlist.strings */,
 				915AD4180ED9E2070017679A /* Preferences.xib */,
-				915AD4190ED9E2070017679A /* projectplus.tiff */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -245,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				915AD4DB0ED9E6AD0017679A /* scm */,
-				915AD4E80ED9E6AD0017679A /* sidebar */,
 				915AD5090ED9E7170017679A /* etc */,
 				915AD4D60ED9E6AD0017679A /* OpenWith.mm */,
 				915AD4D70ED9E6AD0017679A /* ProjectPlus.h */,
@@ -253,7 +171,6 @@
 				915AD4DA0ED9E6AD0017679A /* ProjectTree.mm */,
 				915AD4EE0ED9E6AD0017679A /* Sorting.mm */,
 				915AD4F00ED9E6AD0017679A /* TMLabels.mm */,
-				915AD4F10ED9E6AD0017679A /* Tooltips.mm */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -261,27 +178,11 @@
 		915AD4DB0ED9E6AD0017679A /* scm */ = {
 			isa = PBXGroup;
 			children = (
-				915AD4DD0ED9E6AD0017679A /* BzrIcons.mm */,
 				915AD4DF0ED9E6AD0017679A /* GitIcons.mm */,
-				915AD4E10ED9E6AD0017679A /* HgIcons.mm */,
 				915AD4E20ED9E6AD0017679A /* SCMIcons.h */,
 				915AD4E30ED9E6AD0017679A /* SCMIcons.mm */,
-				915AD4E50ED9E6AD0017679A /* SvkIcons.mm */,
-				915AD4E70ED9E6AD0017679A /* SVNIcons.mm */,
 			);
 			path = scm;
-			sourceTree = "<group>";
-		};
-		915AD4E80ED9E6AD0017679A /* sidebar */ = {
-			isa = PBXGroup;
-			children = (
-				915AD4E90ED9E6AD0017679A /* CWTMSplitView.h */,
-				915AD4EA0ED9E6AD0017679A /* CWTMSplitView.mm */,
-				915AD4EB0ED9E6AD0017679A /* KFSplitView.h */,
-				915AD4EC0ED9E6AD0017679A /* KFSplitView.m */,
-				915AD4ED0ED9E6AD0017679A /* SideBarSwitching.mm */,
-			);
-			path = sidebar;
 			sourceTree = "<group>";
 		};
 		915AD5090ED9E7170017679A /* etc */ = {
@@ -298,25 +199,6 @@
 		91A39A180E16DB11003FECC8 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				91280AC70E4606B700B7ED82 /* libsvn_wc-1.0.0.0.dylib */,
-				91280AC80E4606B700B7ED82 /* libsvn_subr-1.0.0.0.dylib */,
-				91280AC90E4606B700B7ED82 /* libsvn_repos-1.0.0.0.dylib */,
-				91280ACA0E4606B700B7ED82 /* libsvn_ra_svn-1.0.0.0.dylib */,
-				91280ACB0E4606B700B7ED82 /* libsvn_ra_serf-1.0.0.0.dylib */,
-				91280ACC0E4606B700B7ED82 /* libsvn_ra_neon-1.0.0.0.dylib */,
-				91280ACD0E4606B700B7ED82 /* libsvn_ra_local-1.0.0.0.dylib */,
-				91280ACE0E4606B700B7ED82 /* libsvn_ra-1.0.0.0.dylib */,
-				91280ACF0E4606B700B7ED82 /* libsvn_fs_util-1.0.0.0.dylib */,
-				91280AD00E4606B700B7ED82 /* libsvn_fs_fs-1.0.0.0.dylib */,
-				91280AD10E4606B700B7ED82 /* libsvn_fs-1.0.0.0.dylib */,
-				91280AD20E4606B700B7ED82 /* libsvn_diff-1.0.0.0.dylib */,
-				91280AD30E4606B700B7ED82 /* libsvn_delta-1.0.0.0.dylib */,
-				91280AD40E4606B700B7ED82 /* libsvn_client-1.0.0.0.dylib */,
-				91280AD50E4606B700B7ED82 /* libserf-0.0.0.0.dylib */,
-				91280AD60E4606B700B7ED82 /* libneon.27.1.2.dylib */,
-				91280AD70E4606B700B7ED82 /* libexpat.0.1.0.dylib */,
-				91280AD80E4606B700B7ED82 /* libaprutil-1.0.dylib */,
-				91280AD90E4606B700B7ED82 /* libapr-1.0.dylib */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -324,9 +206,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* ProjectPlus */ = {
+		8D5B49AC048680CD000E48DA /* GITMate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "ProjectPlus" */;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "GITMate" */;
 			buildPhases = (
 				8D5B49AF048680CD000E48DA /* Resources */,
 				911112A10E5C8D9900BF76B4 /* CopyFiles */,
@@ -339,10 +221,10 @@
 			);
 			dependencies = (
 			);
-			name = ProjectPlus;
+			name = GITMate;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = ProjectPlus;
-			productReference = 8D5B49B6048680CD000E48DA /* ProjectPlus.tmplugin */;
+			productReference = 8D5B49B6048680CD000E48DA /* GITMate.tmplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -351,13 +233,13 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "ProjectPlus" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
 			mainGroup = 089C166AFE841209C02AAC07 /* ProjectPlus */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* ProjectPlus */,
+				8D5B49AC048680CD000E48DA /* GITMate */,
 			);
 		};
 /* End PBXProject section */
@@ -369,7 +251,6 @@
 			files = (
 				915AD42B0ED9E2070017679A /* InfoPlist.strings in Resources */,
 				915AD4600ED9E2070017679A /* Preferences.xib in Resources */,
-				915AD4610ED9E2070017679A /* projectplus.tiff in Resources */,
 				0EE8F50410A3E17600DD8EBA /* bkg.tiff in Resources */,
 				0EE8F50510A3E17600DD8EBA /* gear.tiff in Resources */,
 				0EE8F50610A3E17600DD8EBA /* plus.tiff in Resources */,
@@ -380,6 +261,7 @@
 				0EE8F6B710A3EF5600DD8EBA /* info.tiff in Resources */,
 				0EE8F6B810A3EF5600DD8EBA /* infodisabled.tiff in Resources */,
 				0EE8F6B910A3EF5600DD8EBA /* infopressed.tiff in Resources */,
+				0E17634A113C7F3C00F1C618 /* gitlogo.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,18 +304,10 @@
 				915AD4F30ED9E6AD0017679A /* OpenWith.mm in Sources */,
 				915AD4F40ED9E6AD0017679A /* ProjectPlus.mm in Sources */,
 				915AD4F50ED9E6AD0017679A /* ProjectTree.mm in Sources */,
-				915AD4F60ED9E6AD0017679A /* BzrIcons.mm in Sources */,
 				915AD4F70ED9E6AD0017679A /* GitIcons.mm in Sources */,
-				915AD4F80ED9E6AD0017679A /* HgIcons.mm in Sources */,
 				915AD4F90ED9E6AD0017679A /* SCMIcons.mm in Sources */,
-				915AD4FA0ED9E6AD0017679A /* SvkIcons.mm in Sources */,
-				915AD4FB0ED9E6AD0017679A /* SVNIcons.mm in Sources */,
-				915AD4FC0ED9E6AD0017679A /* CWTMSplitView.mm in Sources */,
-				915AD4FD0ED9E6AD0017679A /* KFSplitView.m in Sources */,
-				915AD4FE0ED9E6AD0017679A /* SideBarSwitching.mm in Sources */,
 				915AD4FF0ED9E6AD0017679A /* Sorting.mm in Sources */,
 				915AD5000ED9E6AD0017679A /* TMLabels.mm in Sources */,
-				915AD5010ED9E6AD0017679A /* Tooltips.mm in Sources */,
 				915AD5100ED9E7170017679A /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,7 +366,7 @@
 					"$(inherited)",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
+				GCC_MODEL_TUNING = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = src/etc/ProjectPlus_Prefix.pch;
 				INFOPLIST_FILE = resources/Info.plist;
@@ -500,7 +374,7 @@
 					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 				);
-				PRODUCT_NAME = ProjectPlus;
+				PRODUCT_NAME = GITMate;
 				WRAPPER_EXTENSION = tmplugin;
 			};
 			name = Release;
@@ -512,13 +386,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "libs/**";
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
 		1DEB914008733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = "Frameworks/**";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -526,15 +401,16 @@
 					"/usr/include/apr-1/",
 					"/usr/include/subversion-1/",
 				);
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				PREBINDING = YES;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "ProjectPlus" */ = {
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "GITMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB913B08733D840010E9CD /* Debug */,

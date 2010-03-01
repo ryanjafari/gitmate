@@ -1,5 +1,4 @@
 #import <Cocoa/Cocoa.h>
-#import "Sparkle/SUUpdater.h"
 
 extern NSString* ProjectPlus_redrawRequired;
 
@@ -14,8 +13,6 @@ extern NSString* ProjectPlus_redrawRequired;
 	IBOutlet NSView *preferencesView;
 	IBOutlet NSTabView* preferencesTabView;
 	IBOutlet NSWindow* sortingDefaultsSheet;
-
-	IBOutlet SUUpdater* sparkleUpdater;
 }
 + (ProjectPlus*)sharedInstance;
 - (id)initWithPlugInController:(id <TMPlugInController>)aController;

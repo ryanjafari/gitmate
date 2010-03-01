@@ -20,7 +20,7 @@ float ToolbarHeightForWindow(NSWindow *window)
 	return toolbarHeight;
 }
 
-static const NSString* PROJECTPLUS_PREFERENCES_LABEL = @"Project+";
+static const NSString* PROJECTPLUS_PREFERENCES_LABEL = @"GITMate";
 
 @implementation NSWindowController (PreferenceAdditions)
 - (NSArray*)ProjectPlus_toolbarAllowedItemIdentifiers:(id)sender
@@ -100,9 +100,6 @@ static ProjectPlus* SharedInstance = nil;
 		quickLookAvailable = [[NSBundle bundleWithPath:@"/System/Library/PrivateFrameworks/QuickLookUI.framework"] load];
 
 		NSApp = [NSApplication sharedApplication];
-
-		sparkleUpdater = [SUUpdater updaterForBundle:[NSBundle bundleForClass:[self class]]];
-		[sparkleUpdater applicationDidFinishLaunching:[NSNotification notificationWithName:NSApplicationDidFinishLaunchingNotification object:NSApp]];
 
 		// Preferences
 		NSString* nibPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Preferences" ofType:@"nib"];
