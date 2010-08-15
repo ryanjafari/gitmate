@@ -1,3 +1,5 @@
+h1. GITMate Version 1.1
+* Removed extra styling from the shelf (sidebar). Now icons align up nicely when used with SVNMate.
 
 h1. GITMate Version 1.0
 * Removed extra code from ProjectPlus until only GIT Badges were supported.
