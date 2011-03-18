@@ -4,6 +4,8 @@ Several fixes have been made to ensure that sorting *sticks* even when adding/re
 
 * Mac OS X 10.6 Snow Leopard
 
+* TextMate 1.5.10 (1631)
+
 * Sticky sorting
 
 * Preference icon fixed
