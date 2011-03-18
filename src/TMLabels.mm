@@ -1,6 +1,6 @@
 #import <Cocoa/Cocoa.h>
 #import "TextMate.h"
-#import "ProjectPlus.h"
+#import "GITMate.h"
 
 @interface TMLabels : NSObject
 {
@@ -210,7 +210,7 @@ struct Colour {
 	return items;
 }
 
-- (BOOL)myValidateMenuItem:(id <NSMenuItem>)menuItem
+- (BOOL)myValidateMenuItem:(NSMenuItem*)menuItem
 {
 	if ([menuItem action] == @selector(setColourLabel:)) {
 		NSArray *items = [self selectedItems];
@@ -306,7 +306,7 @@ struct Colour {
 {
 	[[NSUserDefaults standardUserDefaults] registerDefaults:[NSDictionary dictionaryWithObjectsAndKeys:
 											[NSNumber numberWithFloat:DEFAULT_COLOUR_OPACITY],@"TMLabels Opacity",
-											[NSNumber numberWithBool:YES],@"ProjectPlus Labels Enabled",
+											[NSNumber numberWithBool:YES],@"GITMate Labels Enabled",
 											nil]];
 	
 	[OakOutlineView jr_swizzleMethod:@selector(highlightSelectionInClipRect:) withMethod:@selector(labeledHighlightSelectionInClipRect:) error:NULL];
@@ -314,7 +314,7 @@ struct Colour {
 	[OakMenuButton jr_swizzleMethod:@selector(awakeFromNib) withMethod:@selector(labeledAwakeFromNib) error:NULL];
 	[OakMenuButton jr_swizzleMethod:@selector(validateMenuItem:) withMethod:@selector(myValidateMenuItem:) error:NULL];
 	
-	[[ProjectPlus sharedInstance] watchDefaultsKey:@"ProjectPlus Labels Enabled"];
+	[[GITMate sharedInstance] watchDefaultsKey:@"GITMate Labels Enabled"];
 }
 
 + (int)colourIndexForPath:(NSString*)path
@@ -398,7 +398,7 @@ struct Colour {
 
 + (BOOL)useLabels
 {
-	return [[NSUserDefaults standardUserDefaults] boolForKey:@"ProjectPlus Labels Enabled"];
+	return [[NSUserDefaults standardUserDefaults] boolForKey:@"GITMate Labels Enabled"];
 }
 
 + (void)drawLabelIndex:(int)colourIndex inRect:(NSRect)rect

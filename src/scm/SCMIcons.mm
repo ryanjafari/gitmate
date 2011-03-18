@@ -1,5 +1,5 @@
 #import "SCMIcons.h"
-#import "ProjectPlus.h"
+#import "GITMate.h"
 #import "TextMate.h"
 
 #define LIST_OFFSET 		4
@@ -153,17 +153,17 @@ static SCMIcons* SharedInstance;
 
 - (BOOL)scmIsEnabled:(NSString*)scmName;
 {
-	return [[NSUserDefaults standardUserDefaults] boolForKey:[NSString stringWithFormat:@"ProjectPlus %@ Enabled", scmName]];
+	return [[NSUserDefaults standardUserDefaults] boolForKey:[NSString stringWithFormat:@"GITMate %@ Enabled", scmName]];
 }
 
 - (void)setScm:(NSString*)scmName isEnabled:(BOOL)enabled;
 {
-	[[NSUserDefaults standardUserDefaults] setBool:enabled forKey:[NSString stringWithFormat:@"ProjectPlus %@ Enabled", scmName]];
+	[[NSUserDefaults standardUserDefaults] setBool:enabled forKey:[NSString stringWithFormat:@"GITMate %@ Enabled", scmName]];
 }
 
 - (void)redisplayProjectTrees;
 {
-	[[NSNotificationCenter defaultCenter] postNotificationName:ProjectPlus_redrawRequired object:nil];
+	[[NSNotificationCenter defaultCenter] postNotificationName:GITMate_redrawRequired object:nil];
 }
 
 - (void)registerSCMDelegate:(id <SCMIconDelegate>)delegate;

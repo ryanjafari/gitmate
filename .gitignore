@@ -1,5 +1,8 @@
 build
-ProjectPlus.xcodeproj/ciaran.*
+GITMate.xcodeproj/*.mode1v3
+GITMate.xcodeproj/*.pbxuser
+GITMate.xcodeproj/xcuserdata/
+GITMate.xcodeproj/project.xcworkspace
 *.tmproj
 .DS_Store
 dsa_priv.pem

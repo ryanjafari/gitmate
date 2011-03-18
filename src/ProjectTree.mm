@@ -1,5 +1,5 @@
 #import "JRSwizzle.h"
-#import "ProjectPlus.h"
+#import "GITMate.h"
 
 @interface ProjectTree : NSObject
 + (BOOL)preserveTreeState;
@@ -70,7 +70,7 @@
 	CGFloat frameWidth = [scrollView frame].size.width;
 	
 	// Create the background image for the icons and make sure it's sized correctly
-	NSString *bkgPath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"bkg" ofType:@"tiff"];
+	NSString *bkgPath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"bkg" ofType:@"tiff"];
 	NSImage *image = [[NSImage alloc] initByReferencingFile:bkgPath];
 	[image setSize: (NSSize){3000,23}];
 	NSImageView *imageView = [[NSImageView alloc] initWithFrame: [[self window] frame]];
@@ -85,44 +85,44 @@
 	[[scrollView superview] addSubview:imageView positioned:NSWindowBelow relativeTo:[siblings objectAtIndex:0]];
 	
 	// Update the ADD image
-	NSString *plusImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"plus" ofType:@"tiff"];
+	NSString *plusImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"plus" ofType:@"tiff"];
 	NSImage *plusImage = [[NSImage alloc] initByReferencingFile:plusImagePath];
 	[[siblings objectAtIndex:4] setImage:plusImage];
 	
-	NSString *plusPressedImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"pluspressed" ofType:@"tiff"];
+	NSString *plusPressedImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"pluspressed" ofType:@"tiff"];
 	NSImage *plusPressedImage = [[NSImage alloc] initByReferencingFile:plusPressedImagePath];
 	[[siblings objectAtIndex:4] setAlternateImage:plusPressedImage];
 	
 	[[siblings objectAtIndex:4] setFrame:(NSRect){0,0,31,23}];
 	
 	// Update the ADD DIR image
-	NSString *plusDirImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"plusdir" ofType:@"tiff"];
+	NSString *plusDirImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"plusdir" ofType:@"tiff"];
 	NSImage *plusDirImage = [[NSImage alloc] initByReferencingFile:plusDirImagePath];
 	[[siblings objectAtIndex:2] setImage:plusDirImage];
 	
-	NSString *plusDirPressedImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"plusdirpressed" ofType:@"tiff"];
+	NSString *plusDirPressedImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"plusdirpressed" ofType:@"tiff"];
 	NSImage *plusDirPressedImage = [[NSImage alloc] initByReferencingFile:plusDirPressedImagePath];
 	[[siblings objectAtIndex:2] setAlternateImage:plusDirPressedImage];
 	
 	[[siblings objectAtIndex:2] setFrame:(NSRect){31,0,31,23}];
 	
 	// Update the GEAR image
-	NSString *gearImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"gear" ofType:@"tiff"];
+	NSString *gearImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"gear" ofType:@"tiff"];
 	NSImage *gearImage = [[NSImage alloc] initByReferencingFile:gearImagePath];
 	[[siblings objectAtIndex:3] setImage:gearImage];
 	
-	NSString *gearPressedImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"gearpressed" ofType:@"tiff"];
+	NSString *gearPressedImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"gearpressed" ofType:@"tiff"];
 	NSImage *gearPressedImage = [[NSImage alloc] initByReferencingFile:gearPressedImagePath];
 	[[siblings objectAtIndex:3] setAlternateImage:gearPressedImage];
 	
 	[[siblings objectAtIndex:3] setFrame:(NSRect){62,0,31,23}];
 	
 	// Update the INFO image
-	NSString *infoImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"info" ofType:@"tiff"];
+	NSString *infoImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"info" ofType:@"tiff"];
 	NSImage *infoImage = [[NSImage alloc] initByReferencingFile:infoImagePath];
 	[[siblings objectAtIndex:1] setImage:infoImage];
 	
-	NSString *infoPressedImagePath = [[NSBundle bundleForClass:[ProjectPlus class]] pathForResource:@"infopressed" ofType:@"tiff"];
+	NSString *infoPressedImagePath = [[NSBundle bundleForClass:[GITMate class]] pathForResource:@"infopressed" ofType:@"tiff"];
 	NSImage *infoPressedImage = [[NSImage alloc] initByReferencingFile:infoPressedImagePath];
 	[[siblings objectAtIndex:1] setAlternateImage:infoPressedImage];
 	
@@ -169,7 +169,7 @@
 + (void)load
 {
 	[[NSUserDefaults standardUserDefaults] registerDefaults:[NSDictionary dictionaryWithObjectsAndKeys:
-																					[NSNumber numberWithBool:YES],@"ProjectPlus Preserve Tree",
+																					[NSNumber numberWithBool:YES],@"GITMate Preserve Tree",
 																					nil]];
 
 	[NSClassFromString(@"OakProjectController") jr_swizzleMethod:@selector(windowDidLoad) withMethod:@selector(ProjectTree_windowDidLoad) error:NULL];
@@ -178,6 +178,6 @@
 
 + (BOOL)preserveTreeState;
 {
-	return [[NSUserDefaults standardUserDefaults] boolForKey:@"ProjectPlus Preserve Tree"];
+	return [[NSUserDefaults standardUserDefaults] boolForKey:@"GITMate Preserve Tree"];
 }
 @end
